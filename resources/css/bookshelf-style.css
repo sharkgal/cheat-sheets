@@ -1,0 +1,97 @@
+html {
+    font-size: 16px;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/*header*/
+
+h1 {
+    font-family: "century gothic", sans-serif;
+    font-size: 4rem;
+    color: rgb(255, 49, 145);
+    margin: 4rem auto 0;
+}
+
+p {
+    font-family: "century gothic", sans-serif;
+    font-size: 1rem;
+    color: rgb(91, 247, 255);
+}
+
+/*shelf*/
+
+.container {
+    width: 35%;
+    margin: 8rem auto;
+}
+
+.shelf {
+    border: 1px solid rgb(255, 49, 145);
+    border-radius: 20px;
+    padding: 1rem;
+    color: yellow;
+    font-weight: bold;
+    margin: .2rem auto;
+}
+
+#and-other {
+    border: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+span {
+    background-color: transparent;
+}
+
+/*footer*/
+
+footer h4 {
+    font-family: "century gothic", sans-serif;
+    text-align: right;
+    margin-right: 3rem;
+    color:rgb(255, 49, 145);
+}
+
+.arrow {
+    margin-right: .5rem;
+}
+
+.pink {
+    color:rgb(255, 49, 145);
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color:rgb(91, 247, 255);
+}
+
+/*link-style*/
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.shelf:hover {
+    background-color: white;
+    color: black;
+}

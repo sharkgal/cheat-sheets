@@ -1,0 +1,70 @@
+html {
+    font-size: 16px;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/*header*/
+
+h1 {
+    font-family: "century gothic", sans-serif;
+    font-size: 4rem;
+    color: rgb(255, 49, 145);
+    margin: 4rem auto 0;
+}
+
+p {
+    font-family: "century gothic", sans-serif;
+    color: yellow;
+}
+
+/*table*/
+
+table{
+    margin: 4rem 8rem;
+}
+
+td{
+    font-family: "century gothic", sans-serif;
+}
+
+thead tr td {
+    background-color: rgb(255, 49, 145);
+    border-radius: 20px;
+    padding: 1rem;
+    font-weight: 800;
+}
+
+tbody td {
+    border: .5px solid rgb(255, 49, 145);
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: left;
+}
+
+/*footer*/
+
+a:link {
+    color: rgb(91, 247, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1rem;
+    transition-property: font-size;
+    transition-duration: .2s;
+}
+
+a:visited {
+    color: rgb(91, 247, 255);
+}
+
+a:hover {
+    font-size: 1.2rem;
+}
